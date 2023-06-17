@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#contact">contact</a>
+        <a href="#aboutUs">about us</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input tybe="search"  id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<div class="login-form-container">
+    <i class="fas fa-time" id="form-close"></i>
+    <form action="" >
+        <h3> login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input tybe="password" class="box" placeholder="enter your password">
+        <input type="submit" value=" login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember"> remember me</label>
+        <p>forget password? <a href="#">Click here</a></p>
+        <p>don't have account? <a href="#">Register now</a></p>
+    </form>
+</div>
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adcenture is a worthwhile</h3>
+        <a href="#" class="btn" >discover more</a>
+    </div>
+
+    <div class="controls">
+<scan class="vid-btn active" data-src="images/vid_1.mp4"></scan>
+<scan class="vid-btn active" data-src="images/vid_2.mp4"></scan>
+<scan class="vid-btn active" data-src="images/vid_3.mp4"></scan>
+
+    </div>
+<div class="video-container">
+     <video src="images/vid_1.mp4" id="video-slider" loop autoplay muted></video>
+</div>
+
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/travel1.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="text" placeholder="numer of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leave</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+
+    </div>
+</section>
+<script src="script/script.js"></script>
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="product-container">
+        <div class="product">
+          <img src="images/paris1.jpeg" alt="Product 1">
+          <h2>Paris</h2>
+          <p class="price">$19.99</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nisi at sapien faucibus, sed consectetur nisl ullamcorper.</p>
+        </div>
+        <div class="product">
+          <img src="images/Grecce.jpg" alt="Product 2">
+          <h2>Grecce</h2>
+          <p class="price">$29.99</p>
+          <p class="description">Suspendisse id ligula scelerisque, aliquam lectus non, finibus sem. In consequat lorem eget mauris lobortis, vitae egestas nisi volutpat.</p>
+        </div>
+        <div class="product">
+          <img src="images/Egypt.jpeg" alt="Product 3">
+          <h2>Egypt</h2>
+          <p class="price">$39.99</p>
+          <p class="description">Duis nec dui ac purus congue luctus non nec lorem. Sed consequat libero ut ex convallis finibus. Donec sagittis neque at dapibus fringilla.</p>
+        </div>
+      </div>
+
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>u</span>
+        <span>s</span>
+    </h1>
+
+    <div class="contact-section">
+        
+        <ul>
+            <li>home</li>
+            <li>products</li>
+            <li>services</li>
+            <li>contact</li>
+          </ul>
+       
+        <div class="contact-info">
+         
+          
+     
+        
+        <form class="contact-form">
+          <h2>Contact Form</h2>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <div class="contact-item">
+              <img src="images/phone.png" alt="Phone">
+              <p>+1 234 5678 901</p>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+
+
+ 
+      
+
+</section>
+
+<section class="about-section" id="aboutUs">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <img src="images/team1.jpg" alt="Company Logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula dolor ut nisi feugiat interdum. Duis eu convallis ipsum, in malesuada tellus. Sed tincidunt ultrices risus, non ultricies sapien aliquam ut. In ultrices nisi vitae tortor aliquet, sit amet sollicitudin leo volutpat.</p>
+        <p>Phasellus dapibus, justo ac scelerisque dapibus, odio nisi vehicula velit, a eleifend massa eros in sem. Mauris rhoncus dolor eget aliquam gravida. Pellentesque sit amet leo a tortor venenatis dapibus.</p>
+        <ul>
+          <li>Company History</li>
+          <li>Our Team</li>
+          <li>Mission and Vision</li>
+          <li>Values</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+
+
+</html> 
